@@ -1,4 +1,8 @@
 'format esm';
+import { AnImage } from './ui/an-image.cp.js';
+import { part } from 'lively.morphic';
+
 export async function main () {
-    // THIS FUNCTION IS THE ENTRY POINT IN THE BUNDLED APPLICATION!
+  const demo = part(AnImage).openInWorld();
+  demo.center = $world.center;
 }
