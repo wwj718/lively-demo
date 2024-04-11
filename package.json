@@ -20,11 +20,11 @@
     "repositoryIsPrivate": false,
     "repoBelongsToOrg": false,
     "testOnPush": true,
-    "buildOnPush": false,
-    "deployOnPush": false,
+    "buildOnPush": true,
+    "deployOnPush": true,
     "canUsePages": true
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/wwj718/lively-demo"
